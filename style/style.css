@@ -93,10 +93,6 @@ nav ul li a:hover, nav ul li a:active {
     justify-content: space-between;
     line-height: 30px;
 }
-.hero .content-hero {
-    width: 460px;
-    height: 250px;
-}
 
 .content-hero .social-media {
     display: flex;
