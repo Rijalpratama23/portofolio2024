@@ -90,14 +90,9 @@ nav ul li a:hover, nav ul li a:active {
     padding: 80px 80px;
     min-height: 87vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     line-height: 30px;
 }
-.hero .content-hero {
-    width: 460px;
-    height: 250px;
-}
-
 .content-hero .social-media {
     display: flex;
     gap: 30px;
@@ -342,7 +337,6 @@ footer .social-media  {
 @media screen and (max-width: 768px) {
     body, nav ul {
         font-size: 80%;
-        width: 100%;
     }
     .btn-navbar{
         display: flex;
@@ -384,7 +378,10 @@ footer .social-media  {
     .poto-project {
         display: flex;
         flex-wrap: wrap;
-        margin: 30px 39px;
+        justify-content: center;
+    }
+    .galery-project img {
+        padding: 20px auto;
     }
     .caption-project p {
         width: 350px;
@@ -440,13 +437,11 @@ footer .social-media  {
 
 /* handphone */
 @media screen and (max-width: 450px) {
+
     .hero .content-hero {
         display: block;
         align-items: baseline;
-    }
-    .coontainer-all, nav ul {
-        font-size: 60%;
-        width: 100%;
+        justify-content: center;
     }
     nav ul {
         position: absolute;
@@ -494,8 +489,7 @@ footer .social-media  {
     .poto-project .galery-project {
         display: flex;
         flex-wrap: wrap;
-        justify-content: left;
-        margin-right: 150px;
+        justify-content: center;
     }
     .poto-project {
         display: flex;
