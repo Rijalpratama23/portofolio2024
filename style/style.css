@@ -93,10 +93,6 @@ nav ul li a:hover, nav ul li a:active {
     justify-content: space-around;
     line-height: 30px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 38c6702467cb09b7c70e0fc62f0365557c725080
 .content-hero .social-media {
     display: flex;
     gap: 30px;
@@ -332,7 +328,6 @@ footer .social-media  {
 /* laptop */
 @media screen and (max-width: 1366px){
     body {
-        width: 100%;
         font-size: 100%;
     }
 }
@@ -459,7 +454,6 @@ footer .social-media  {
         letter-spacing: 1px;
     }
     nav ul.active {
-        right: -250%;
         border-radius: 20px;
         letter-spacing: 1px;
     }
